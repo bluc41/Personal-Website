@@ -17,7 +17,7 @@ html, body {
 }
 
 .btnbot {
-  font-family: Arial;
+  font-family: 'Raleway', sans-serif;
   color: #6b496b;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -27,13 +27,25 @@ html, body {
 }
 
 .btntop {
-  font-family: Arial;
+  font-family: 'Raleway', sans-serif;
   color: #6b496b;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   border: solid #438c86 2px;
   text-decoration: none;
   margin: 5px;
+
+}
+
+.btntop:hover {
+  background: #e6e6e6;
+  text-decoration: none;
+
+}
+
+.btnbot:hover {
+  background: #e6e6e6;
+  text-decoration: none;
 }
 
 .buttonrow {
@@ -73,6 +85,7 @@ p {
 
 .head {
 	margin-top: 50px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .foot {
