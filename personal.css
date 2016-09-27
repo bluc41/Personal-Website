@@ -11,6 +11,11 @@ body {
   color: gray;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .btnbot {
   font-family: Arial;
   color: #6b496b;
@@ -23,7 +28,7 @@ body {
 
 .btntop {
   font-family: Arial;
-  color: #fff;
+  color: #595959;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   border: solid #438c86 2px;
@@ -106,6 +111,7 @@ ul {
 .coursework {
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
+  list-style: none;
 }
 
 
