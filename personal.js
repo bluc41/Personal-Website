@@ -1,11 +1,11 @@
 $(function() {
 
-    var dic = {"strokes": "#utcod", "cage":"#cigday", "head":"#waves"};
+    var dic = {"strokes": "#utcod", "cage":"#cigday", "headtext":"#waves"};
     
     $("#strokes").on('click', whenclicked);
     $("#cage").on('click', whenclicked);
 
-    $("#head").on('click', whenclicked);
+    $("#headtext").on('click', whenclicked);
 
     function whenclicked() {
         var id = this.id;
