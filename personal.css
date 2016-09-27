@@ -28,10 +28,10 @@ html, body {
 
 .btntop {
   font-family: 'Raleway', sans-serif;
-  color: #6b496b;
+  color: #404040;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
-  border: solid #438c86 2px;
+  border: solid #404040 2px;
   text-decoration: none;
   margin: 5px;
 
@@ -73,7 +73,7 @@ html, body {
 .bgimage {
   height: 500px;
   width: 100%;
-  background-image: url("pics/skyline.jpg");
+  background-image: url("pics/skyline2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
