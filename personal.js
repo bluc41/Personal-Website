@@ -1,29 +1,32 @@
 $(function() {
 
+    var dic = {"strokes": "#utcod", "cage":"#cigday", "head":"#waves"};
     
-    $("#strokes").on('click', function() {
-        if ($("#utcod")[0].paused) {
-            $("#utcod")[0].play();
-        } else {
-            $("#utcod")[0].pause();
-        }
-    });
+    $("#strokes").on('click', whenclicked);
+    $("#cage").on('click', whenclicked);
 
-    $("#cage").on('click', function() {
-        if ($("#cigday")[0].paused) {
-            $("#cigday")[0].play();
-        } else {
-            $("#cigday")[0].pause();
-        }
-    });
+    $("#head").on('click', whenclicked);
 
-    $("#head").on('click', function() {
-        if ($("#waves")[0].paused) {
-            $("#waves")[0].play();
+    function whenclicked() {
+        var id = this.id;
+
+        if ($(dic[id])[0].paused) {
+            $('audio').each(function() {
+            if (this.id != id) {
+                this.pause();
+            }
+        });
+            $(dic[id])[0].play();
         } else {
-            $("#waves")[0].pause();
+            $(dic[id])[0].pause();
         }
-    });
+        
+    }
+
+
+
+    
+
 
 
 
