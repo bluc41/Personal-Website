@@ -75,6 +75,9 @@ html, body {
   width: 100%;
   background-image: url("pics/skyline.jpg");
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
 
 }
 
@@ -141,9 +144,6 @@ ul {
     cursor: pointer;
 }
 
-hr {
-   margin: 0;
-}
     
 
 #photos {
