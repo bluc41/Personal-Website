@@ -28,7 +28,7 @@ html, body {
 
 .btntop {
   font-family: 'Raleway', sans-serif;
-  color: #404040;
+  color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   border: solid #404040 2px;
@@ -73,7 +73,7 @@ html, body {
 .bgimage {
   height: 500px;
   width: 100%;
-  background-image: url("pics/skyline.jpg");
+  background-image: url("pics/rickandmorty.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
